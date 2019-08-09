@@ -1,5 +1,5 @@
 {
-    "name": "alexandr/php-project-lvl1",
+    "name": "alexander/php-project-lvl1",
     "bin": ["bin/brain-games"],
     "authors": [
         {
