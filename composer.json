@@ -8,5 +8,7 @@
         }
     ],
     "description": "brain-games",
-    "require": {}
+    "require": {
+        "wp-cli/php-cli-tools": "dev-master"
+    }
 }
