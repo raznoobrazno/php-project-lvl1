@@ -11,6 +11,7 @@
         }
     ],
     "description": "brain-games",
+    "minimum-stability": "dev",
     "scripts": {
         "phpcs": "phpcs"
     },
