@@ -12,7 +12,6 @@ function runGame()
     print_r(PHP_EOL);
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
-    print_r(PHP_EOL);
     line('Question: 15');
     $question1 = prompt('Your answer');
     if ($question1 !== 'no') {
