@@ -12,7 +12,7 @@ function runGame()
     print_r(PHP_EOL);
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
-    $number1 = rand(1,99);
+    $number1 = rand (1,99);
     line('Question: %s', $number1);
     $question1 = prompt('Your answer');
     if ($number1 % 2 === 0) {
@@ -36,7 +36,7 @@ function runGame()
                 die();
         }
     }
-    $number2 = rand(1,99);
+    $number2 = rand (1,99);
     line('Question: %s', $number2);
     $question2 = prompt('Your answer');
     if ($number2 % 2 === 0) {
@@ -60,7 +60,7 @@ function runGame()
                 die();
         }
     }
-    $number3 = rand(1,99);
+    $number3 = rand (1,99);
     line('Question: %s', $number3);
     $question3 = prompt('Your answer');
     if ($number3 % 2 === 0) {
